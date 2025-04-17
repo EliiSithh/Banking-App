@@ -1,0 +1,190 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container for the app */
+  #app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header styling */
+  header h1 {
+    font-size: 2rem;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* General section styling */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Login Form */
+  #loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #loginForm label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  #loginForm input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #loginForm button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #loginForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  #loginForm a {
+    text-align: center;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  #loginForm a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dashboard styling */
+  #dashboard {
+    font-size: 1.2rem;
+  }
+  
+  #dashboard header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #dashboard a {
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  #dashboard a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Balance section */
+  #dashboard section {
+    margin-top: 20px;
+  }
+  
+  #dashboard .balance {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Table styling for transactions */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Register form styling */
+  #registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #registerForm label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  #registerForm input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #registerForm button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #registerForm button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #app {
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    #loginForm,
+    #registerForm {
+      width: 100%;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  }
+  
